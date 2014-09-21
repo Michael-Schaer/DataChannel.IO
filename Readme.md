@@ -48,6 +48,10 @@ You should now be running on your local server! If it fails, check your firewall
 ## How To Use Precise.io Server for other projects (On the clients)
 
 #### Creating a DataChannel Object
+
+	<script src="http://example.com:8080/datachannel.io/datachannel.io.js"></script>
+	<script>
+	
 	var datachannel = new DataChannel({
 		socketServer: 'http://example.com:8080',
 		connectedCallback: this.myCallback, // Provide a function that is triggered, when connected to the websocket
