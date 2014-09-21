@@ -31,7 +31,7 @@ This installation guide assumes you are using a Debian or Ubuntu Server. It is h
 
 3. install modules
 
-	`$ npm install git://github.com/Michael-Schaer/DataChannel.IO.git
+	`$ npm install git://github.com/Michael-Schaer/DataChannel.IO.git`
 
 4. sometimes the redis module will not be installed in the socket.io folder. If this happens, do the following:	
 	
