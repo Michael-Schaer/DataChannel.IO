@@ -35,11 +35,11 @@ This installation guide assumes you are using a Debian or Ubuntu Server. It is h
 
 4. sometimes the redis module will not be installed in the socket.io folder. If this happens, do the following:	
 	
-	`$ cd node_modules/socket.io`<br />
+	`$ cd node_modules/datachannel.io/node_modules/socket.io`<br />
 	`$ npm install redis`<br />
 	`$ cd ../..`
 
-5. run the script
+5. run the script from the datachannel.io folder
 	
 	`$ nodejs runDatachannel.js`
 	
